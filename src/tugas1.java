@@ -46,7 +46,7 @@ public class tugas1 extends javax.swing.JFrame {
 
         nama.setText("Nama");
 
-        nim.setText("NIM");
+        nim.setText("Profesi");
 
         jkelamin.setText("Jenis Kelamin");
 
@@ -198,7 +198,7 @@ public class tugas1 extends javax.swing.JFrame {
         String agama=(String) tagama.getSelectedItem();
         String hp=thp.getText();
         String alamat=talamat.getText();
-        tampil.setText ("nama\t" +nama+ "\nnim\t" +nim+ "\njenis kelamin\t" +jkelamin+ "\nagama\t" +agama+ "\nalamat\t" +alamat);
+        tampil.setText ("nama\t" +nama+ "\nnim\t" +nim+ "\njenis kelamin\t" +jkelamin+ "\nagama\t" +agama+ "\nno.hp\t" +hp+ "\nalamat\t" +alamat);
     }//GEN-LAST:event_simpanActionPerformed
 
     private void resetActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_resetActionPerformed
@@ -251,3 +251,4 @@ public class tugas1 extends javax.swing.JFrame {
     private javax.swing.JTextField tnim;
     // End of variables declaration//GEN-END:variables
 }
+
